@@ -1,4 +1,9 @@
 import statistics
+# import panda 
+import pandas as pd 
+sales=pd.read_csv("data/sales.csv")
+print(sales)
+
 def analyser_ventes(transactions):
     ventes_valides = []
     for t in transactions:
